@@ -1,0 +1,41 @@
+.item {
+  &__container {
+    width: 700px;
+    margin: auto;
+    border: 2px solid #eee;
+    height: 500px;
+    display: flex;
+  }
+
+  &__single {
+    padding: 0px 46px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 132px;
+    color: #ffffff;
+    &:nth-child(1) {
+      background-color: rgb(60, 28, 177);
+    }
+    &:nth-child(2) {
+      background-color: rgb(139, 92, 20);
+    }
+    &:nth-child(3) {
+      background-color: rgb(32%, 11%, 6%);
+    }
+    &:nth-child(4) {
+      background-color: rgb(23%, 55%, 12%);
+    }
+    &:nth-child(5) {
+      background-color: rgb(99%, 55%, 71%);
+    }
+    &:nth-child(6) {
+      background-color: rgb(85%, 88%, 75%);
+    }
+    &:nth-child(7) {
+      background-color: rgb(76%, 8%, 53%);
+    }
+    &:nth-child(8) {
+      background-color: rgb(47%, 70%, 59%);
+    }
+  }
+}

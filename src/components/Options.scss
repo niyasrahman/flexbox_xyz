@@ -1,0 +1,18 @@
+.option {
+  &__wrapper {
+    float: left;
+    width: 100%;
+  }
+  &__container {
+    margin: auto;
+    max-width: 1170px;
+  }
+  &__single {
+    float: left;
+    width: 20%;
+  }
+  &__input {
+    float: left;
+    width: 100%;
+  }
+}

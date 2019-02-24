@@ -1,3 +1,21 @@
 .css {
   font-family: "Source Code Pro", monospace;
+  &__container {
+    float: left;
+    width: 100%;
+  }
+  &__wrapper {
+    max-width: 250px;
+    margin: 51px auto;
+  }
+}
+.copy_buton {
+  float: left;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.copy_status {
+  font-family: "Roboto", sans-serif;
+  float: left;
+  width: 100%;
 }

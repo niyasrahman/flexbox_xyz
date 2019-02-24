@@ -1,0 +1,15 @@
+.dragger {
+  &__container {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: 40px 0;
+  }
+  &__text {
+    font-family: "Gochi Hand", cursive;
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    margin: 8px 0;
+  }
+}

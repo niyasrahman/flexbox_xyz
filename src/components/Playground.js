@@ -56,13 +56,16 @@ class Playground extends Component {
     return (
       <>
         <ShowGrid style={divStyle} count={this.state.count} />
-        <input
-          onChange={this.updateChild}
-          type="range"
-          name="points"
-          min="0"
-          max="8"
-        />
+        <div className="dragger__container">
+          <input
+            onChange={this.updateChild}
+            type="range"
+            name="points"
+            min="0"
+            max="8"
+          />
+          <span className="dragger__text">Drag to change value</span>
+        </div>
         <Options OnChangeofInput={this.ChangeValue} attr={attr} />
         <CSS value={divStyle} />
       </>
